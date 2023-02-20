@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+h1{
+transform:translate(140px,120px);
+}
+h2{
+transform:rotate(-40deg);
+}
+h3{
+transform:scale(1,0.5);
+}
+h4{
+transform:skew(60deg);
+}
+.trans{
+height:500px;
+width:300px;
+}
+.transis{
+margin-left:500px;
+margin-top:-450px;
+height:500px;
+width:700px;
+background-color:black;
+color:white;
+transition:height 3s, width 2s, transform 5s;
+transition-delay:2s;
+}
+.transis:hover{
+height:800px;
+width:300px;
+transform:rotate(40deg);
+}
+h5{
+opacity:3
+transition:opacity 3s;
+}
+h5:hover{opacity:1;}
+</style>
+</head>
+<body>
+<div class="trans">
+<h1>Hima Bindu</h1>
+<h2>Hima Bindu</h2>
+<h3>Hima Bindu</h3>
+<h4>Hima Bindu</h4>
+</div>
+<div class="transis">
+<h1 class="opac">Hima Bindu</h1>
+<h5>Hima Bindu</h5>
+</div>
+</body>
